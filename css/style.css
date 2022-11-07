@@ -1,0 +1,43 @@
+table,th,td {
+    border: 1px solid;
+}
+
+table td {
+    text-align: center;
+}
+
+/* Navbar */
+.topnav {
+    background-color: black;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+
+/* Header */
+#headers{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    font-family: 'Source Sans Pro', sans-serif ;
+}
