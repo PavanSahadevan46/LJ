@@ -2,46 +2,161 @@
 <html lang="en">
 		
 		<head>
-			<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
 			<title>Learning Journal</title>
 			<link href="css/normalize.css" rel="stylesheet">
 			<link href="css/style.css" rel="stylesheet">
 		</head>
 
 	<body>
-		<div id="wrapper">	
+		<!-- <div id="wrapper">	
 		<div class="topnav">
 			<a class="active" href="index.html">Learning Journal</a>
 			<a href="tutorial.html">Tutorial</a>
 			<a href="contact.html">Contact</a>
-		</div>
+		</div> -->
+		<!-- Omitted this navbar as it did not work with grid format -->
+
+
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Learning Journal</a></li>
+				<li><a href="tutorial.html">Tutorial</a></li>
+				<li><a href="contact.html">Contact me</a></li>
+			</ul>
+		</nav>
+		
 		<div id="headers">
 			<header>
-				<h1>Pavan's Learning Journal</h1>
+				<h1>CI435 Learning Journal</h1>
 				<h2>Developing a responsive website</h2>
 			</header>
 		</div>
+		<table>
+			<caption>My Timetable</caption>
+			<tbody>
+				<tr>
+					<th>Day/time</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+				</tr>
+				<tr>
+					<td>10-11am</td>
+					<td></td> <!--Mon-->
+					<td>C1453 LEC<br>Cockcroft G50</td><!--Tue-->
+					<td></td><!--Wed-->
+					<td><br></td><!--Thu-->
+					<td><br></td><!--Fri-->
+				</tr>
+				<tr>
+					<td>11-12am</td>
+					<td></td><!--Mon-->
+					<td>CI435 LEC<br>Huxley 300</td><!--Tue-->
+					<td></td><!--Wed-->
+					<td>CI404 LAB<br>Cockcroft 415</td><!--Thu-->
+					<td><br></td><!--Fri-->
+				</tr>
+				<tr>
+					<td>12-13pm</td>
+					<td><br></td> <!--Mon-->
+					<td><br></td><!--Tue-->
+					<td>CI401 LAB<br>Elm House 206</td><!--Wed-->
+					<td>CI404 LAB<br>Cockcroft 415</td><!--Thu-->
+					<td></td><!--Fri-->
+				</tr>
+				<tr>
+					<td>13-14pm</td>
+					<td>CI401 LEC<br>Cockcroft G50</td> <!--Mon-->
+					<td>CI401 SEM<br>Cockroft 106</td><!--Tue-->
+					<td></td><!--Wed-->
+					<td>CI405 LEC<br>Cockcroft G50</td><!--Thu-->
+					<td>CI405 LAB<br>Cockroft 107</td><!--Fri-->
+				</tr>
+				<tr>
+					<td>14-15pm</td>
+					<td><br></td><!--Mon-->
+					<td>CI435 LAB<br>Cockroft 419</td><!--Tue-->
+					<td></td><!--Wed-->
+					<td>CI435 TUT<br>Elm House 303</td><!--Thu-->
+					<td></td><!--Fri-->
+				</tr>
+				<tr>
+					<td>15-16pm</td>
+					<td>CI404 LEC<br>Cockcroft G50</td><!--Mon-->
+					<td><br></td><!--Tue-->
+					<td></td><!--Wed-->
+					<td></td><!--Thu-->
+					<td></td><!--Fri-->
+				</tr>
+					<tr>
+					<td>16-17pm</td>
+					<td>CI404 LEC<br>Cockcroft G50</td><!--Mon-->
+					<td><br></td><!--Tue-->
+					<td></td><!--Wed-->
+					<td></td><!--Thu-->
+					<td></td><!--Fri-->
+				</tr>
+			</tbody>
+		</table>
 
 		<main>
 			
 			<h2>Weekly Posts</h2>
+			
+			<article>
+				<header>
+				<h3>Week 7: Flexible Media</h3>
+				<h4>Published on <time datetime="2022-11-15">November 15, 2022</time></h4>
+				</header>
+					<p>In this lab session on the I was able to start looking into ways to add a video to my tutorial page.<br>
+						I was able to accomplish this by using the appropriate tags that would allow media such as images or videos to be properly positioned within a page.
+						In addition I was able to clean up my timetable and push it to the top instead of it remaining in a singular post.
+					</p>
+					<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>	
+			</article>
+
+			<article>
+				<header>
+				<h3>Week 6: Making the website responsive</h3>
+				<h4>Published on <time datetime="2022-11-08">November 8, 2022</time></h4>
+				</header>
+					<p>In this lab session on the I was able to start making my website responsive.<br>
+						I was able to accomplish this by making adjustments to the head and adding responsive tags.
+						Furthermore using chrome dev tools to play around with the css I was able to further hone my knowledge on responsiveness within a site.
+					</p>
+					<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>	
+			</article>
+
+			<article>
+				<header>
+				<h3>Week 5: Using CSS to change the style of the website continued </h3>
+				<h4>Published on <time datetime="2022-11-01">November 1, 2022</time></h4>
+				</header>
+					<p>In this lab session on the fifth week I was able to continue altering my website through the use of CSS.<br>
+						Furthermore I was able to conclusively my colour scheme and how I would continue to adhere to it consistently throughout each page.
+					</p>
+					<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>	
+			</article>
+		
 			<article>
 				<header>
 				<h3>Week 4: Using CSS to change the style of the website </h3>
-				<h4>Published on <time datetime="2022-10-04">October 11, 2022</time></h4>
+				<h4>Published on <time datetime="2022-10-25">October 25, 2022</time></h4>
 				</header>
-					<p>Finished third lab session in which I learnt how to approriately use HTML tags.<br>
-						In this session I was also able to utlise these by incorporating them into my code.<br>
-						Furthermore I was able to learn how to add publication dates and using the correct format within the code.
+					<p>Finished fourth lab session in which I learnt how to best utilise CSS to style my website and make it better to look at.<br>
+						Continuing on I was able to look into how to use pure CSS to make a website be structured properly.<br>
+						Furthermore I was able to learn how to add additional CSS files without conflict to pre-exisiting files.
 					</p>
 					<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>
 			</article>
 		
-			
 			<article>
 				<header>
 				<h3>Week 3: Using nested lists within code and continuing to learn markup</h3>
-				<h4>Published on <time datetime="2022-10-04">October 11, 2022</time></h4>
+				<h4>Published on <time datetime="2022-10-18">October 18, 2022</time></h4>
 				</header>
 					<p>Finished second lab session in which I learnt how to approriately use HTML tags.<br>
 						In this session I was also able to utlise these by incorporating them into my code.<br>
@@ -76,25 +191,23 @@
 				<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>
 			</article>
 
-
 			<article>
 				<header>
 				<h3>Week 2: Using tags effectively to create well formed markup</h3>
-				<h4>Published on <time datetime="2022-10-04">October 11, 2022</time></h4>
+				<h4>Published on <time datetime="2022-10-11">October 11, 2022</time></h4>
 				</header>
 					<p>Finished second lab session in which I learnt how to approriately use HTML tags.<br>
 						In this session I was also able to utlise these by incorporating them into my code.<br>
 						Furthermore I was able to learn how to add publication dates and using the correct format within the code.
 					</p>
 					
-				<figure><img src="images/html_tags.png"  alt="tags_pic" style ="width:70%">
+				<figure><img src="images/html_tags.png"  alt="tags_pic">
 					<figcaption>Website folder structure<br>
 					</figcaption>
 				</figure>
 	
 				<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>
 			</article>
-
 
 			<article>
 				<header>
@@ -105,29 +218,12 @@
 					I also was able to learn how to link external sites using absolute links and validate my html through a external html validator
 					</p>
 					
-				<figure><img src="images/folders_structure.png"  alt="website_structure" style ="width:70%">
+				<figure><img src="images/folders_structure.png"  alt="website_structure">
 					<figcaption>Website folder structure<br>
 					</figcaption>
 				</figure>
 	
 				<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>
-				<article>
-					<header>
-					<h3>Week 2: Using tags effectively to create well formed markup</h3>
-					<h4>Published on <time datetime="2022-10-04">October 11, 2022</time></h4>
-					</header>
-						<p>Finished second lab session in which I learnt how to approriately use HTML tags.<br>
-							In this session I was also able to utlise these by incorporating them into my code.<br>
-							Furthermore I was able to learn how to add publication dates and using the correct format within the code.
-						</p>
-						
-					<figure><img src="images/html_tags.png"  alt="website structure" style ="width:70%">
-						<figcaption>Website folder structure<br>
-						</figcaption>
-					</figure>
-		
-						<p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>
-				</article>
 			</article>
 		</main>
 			
@@ -147,6 +243,6 @@
 			<small>&copy; 2022, Pavan Sahadevan</small>
 		</footer>
 
-		</div>
+		
 	</body>
 </html>

@@ -1,63 +1,61 @@
-
-<!doctype html><!--HTML5 doctype declaration -->
-<html lang="en"><!--default language of the document content -->
-	
+<!doctype html>
+<html lang="en">
     <head>
-		<meta charset="utf-8"><!--character encoding for the document (Unicode) -->
-		<title>Learning Journal template</title><!--web page title -->
+		<meta charset="utf-8">
+		<title>Learning Journal</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
 	</head>
 
 <body>
-	<!--Markup all web page content inside the 'body' tags -->
 	<div id="wrapper">
-	<!--The 'wrapper' contains all the page content-->
 	
     <header><!--The main heading for the page -->
-		<h1>page heading</h1>
-		<h2>sub-heading</h2>
+		<h1>Tutorial Page</h1>
 	</header>
 	
-    <nav><!--The primary navigation for the page -->
-	<ul>
-		<li><a href="index.html">Learning Journal</a></li>
-		<li>Tutorial</li>
-        <li><a href="contact.html">Contact me</a></li>
-	</ul>
-	</nav>
+		<nav class="menu">
+			<ul>
+				<li><a href="index.html">Learning Journal</a></li>
+				<li><a href="tutorial.html">Tutorial</a></li>
+				<li><a href="contact.html">Contact me</a></li>
+			</ul>
+		</nav>
     
-    <main><!--The main page content -->
+    <main>
         
-        	<h2>Weekly Posts</h2>
+        	<h2>Webdev skills</h2>
 	
     	<article>
-			<header>
-			<h3>Week 1: ...</h3>
-			</header>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc volutpat, risus et hendrerit consequat, ante lectus<br> 
-			porttitor tellus, eget blandit urna nibh a metus. </p>
-
-        <p>Some reference here to my own reading and research, explaining what I have done and what I have learned from it.</p>
+			<div class="video-wrapper">
+				<div class="video-container">
+					<iframe width="1280" height="720" src="https://www.youtube.com/embed/erEgovG9WBs"
+					title="100+ Web Development Things you Should Know" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen>
+					</iframe>
+				</div>
+			</div>
+				
+        <p>Embeded video to learn skills</p>
         
 		</article>
            
-    </main><!--Close main page content --> 
+    </main> 
         
-        <aside>
+        <!-- <aside>
         
-        	<h2>References</h2>
+        	<h2></h2>
             
-            	<ol>
-                	<li>...</li>
-                    <li>...</li>
-                </ol>
-            
-        </aside>    
+        </aside>     -->
  
   
 	<footer><!--Footer content -->
-		<small>&copy; 2019, author.</small>
+		<small>&copy; 2019, Pavan Sahadevan.</small>
 	</footer>
 
-	</div><!--Close 'wrapper' div -->
-</body><!--Close 'body' -->
-</html><!--Close 'html' -->
+	</div>
+</body>
+</html>
